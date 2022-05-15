@@ -1,2 +1,2 @@
-# PIS-Maxi-
+# PIS-Maxi
 Tic-Tac-Toe
