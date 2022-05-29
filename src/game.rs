@@ -124,21 +124,20 @@ impl Board {
 
     pub fn is_first (&self) -> bool {
 
+        let mut result = 0;
 
-    let mut result = 0;
+        if self.c1 == Cell::E {result += 1}
+        if self.c2 == Cell::E {result += 1}
+        if self.c3 == Cell::E {result += 1}
+        if self.c4 == Cell::E {result += 1}
+        if self.c5 == Cell::E {result += 1}
+        if self.c6 == Cell::E {result += 1}
+        if self.c7 == Cell::E {result += 1}
+        if self.c8 == Cell::E {result += 1}
+        if self.c9 == Cell::E {result += 1}
 
-    if self.c1 == Cell::E {result += 1}
-    if self.c2 == Cell::E {result += 1}
-    if self.c3 == Cell::E {result += 1}
-    if self.c4 == Cell::E {result += 1}
-    if self.c5 == Cell::E {result += 1}
-    if self.c6 == Cell::E {result += 1}
-    if self.c7 == Cell::E {result += 1}
-    if self.c8 == Cell::E {result += 1}
-    if self.c9 == Cell::E {result += 1}
-
-    if result == 9 || result == 8 {return true}
-    else {return false}
+        if result == 9 || result == 8 {return true}
+        else {return false}
 
     }
 
