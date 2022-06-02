@@ -15,17 +15,12 @@ pub fn main () {
 
     loop {
 
-
-        //establecer variables
-
         let mut player1 = Cell::E;
         let mut player2 = Cell::E;
         let mut who = String::new();
         let mut number_of_players = String::new();
         let mut difficulty_str = String::new();
         let mut difficulty = selector::AI::DefaultAI;
-
-        //Imprimir y establecer variables
 
         draw_start();
 
@@ -69,11 +64,9 @@ pub fn main () {
         }
 
 
-
         else if number_of_players == "S" {
 
             game_flow::two_players(player1, player2);
-
 
         };
 
