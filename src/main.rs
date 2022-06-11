@@ -32,7 +32,7 @@ pub fn main () {
                 operativo]"); let number_of_players = number_of_players.trim().to_uppercase();
 
 
-        println!("Bien, ahora eliga la letra del primer jugador: ");
+        println!("Bien, ahora elija la letra del primer jugador: ");
 
         io::stdin()
             .read_line(&mut who)
