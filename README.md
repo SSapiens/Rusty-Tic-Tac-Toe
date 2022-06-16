@@ -1,4 +1,4 @@
-# PIS-Maxi
+# Rusty Tic Tac Toe
 
 El siguiente repositorio almacena el código fuente del
 juego Tic-Tac-Toe implementado en Rust; el proyecto
