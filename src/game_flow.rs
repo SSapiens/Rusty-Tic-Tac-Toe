@@ -29,7 +29,7 @@ pub fn alone (player1: Cell, aiplayer: Cell, ai_to_use: AI) {
 
 
 		let move_to : i8 = move_to.trim().parse().expect("FIN DE EJECUCIÓN: Codigo de Error 003 
-			[Parece que no introdujo un número válida o hubo un problema con al leer el input");
+			[Parece que no introdujo un número válido o hubo un problema con al leer el input");
 
 
 		if gameboard.is_legal(move_to) {
@@ -99,7 +99,7 @@ pub fn two_players (player1: Cell, player2: Cell) {
 
 
 		let player1_move_to : i8 = player1_move_to.trim().parse().expect("FIN DE EJECUCIÓN: Codigo de Error 003 
-			[Parece que no introdujo un número válida o hubo un problema con al leer el input");
+			[Parece que no introdujo un número válido o hubo un problema con al leer el input");
 
 
 		if gameboard.is_legal(player1_move_to) {
@@ -138,7 +138,7 @@ pub fn two_players (player1: Cell, player2: Cell) {
 
 
 		let player2_move_to: i8 = player2_move_to.trim().parse().expect("FIN DE EJECUCIÓN: Codigo de Error 003 
-			[Parece que no introdujo un número válida o hubo un problema con al leer el input");
+			[Parece que no introdujo un número válido o hubo un problema con al leer el input");
 
 
 		if gameboard.is_legal(player2_move_to) {
