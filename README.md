@@ -22,7 +22,5 @@ impossible difficulties, respectively, with the latter being
 based on the Minimax model. 
 The project also includes a two-player mode.
 
-This repository was made solely and exclusively for educational purposes.
-
 This repository was made solely and exclusively with
 educational purposes.
